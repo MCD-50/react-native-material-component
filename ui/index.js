@@ -27,5 +27,5 @@ export {
 	AutoGrowTextInput, Avatar, Badge, Card,
 	CheckBox, Icon, IconToggle, ListItem, Progress,
 	SwipeListView, SwipeRow, TextField, Divider,
-	Toast, Toolbar, getTheme, RippleFeedback
+	Toast, Toolbar, getTheme, RippleFeedback, ThemeProvider
 }
