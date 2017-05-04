@@ -1,0 +1,45 @@
+{
+  "name": "react-native-material-component",
+  "version": "1.0.0",
+  "description": "Simple react native material components based on react-native-material-ui ",
+  "main": "index.js",
+   "scripts": {
+    "lint": "eslint . --ext .js,.jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mcd-50/react-native-material-component.git"
+  },
+  "keywords": [
+    "react-native",
+    "material",
+    "design",
+    "ui",
+    "components",
+    "react-component",
+    "android"
+  ],
+  "author": "ayush shukla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcd-50/react-native-material-component/issues"
+  },
+  "homepage": "https://github.com/mcd-50/react-native-material-component#readme",
+  "peerDependencies": {
+    "react-native-vector-icons": "^4.0.0"
+  },
+  "dependencies": {
+    "color": "^1.0.3",
+    "lodash.merge": "^4.0.0",
+    "react-native-material-design-styles": "^0.2.6"
+  },
+  "devDependencies": {
+    "eslint": "~3.12.2",
+    "eslint-config-airbnb": "~13.0.0",
+    "eslint-config-cooperka": "~0.2.3",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-jsx-a11y": "~2.2.3",
+    "eslint-plugin-react": "~6.8.0",
+    "eslint-plugin-react-native": "~2.2.1"
+  }
+}
