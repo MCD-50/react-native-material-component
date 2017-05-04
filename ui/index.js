@@ -21,7 +21,7 @@ import Divider from './utils/Divider.js';
 // import * as GetPlatformElevation from './utils/GetPlatformElevation.js';
 import getTheme from './utils/GetTheme.js';
 import RippleFeedback from './utils/RippleFeedback.js';
-
+import ThemeProvider from './utils/ThemeProvider.js';
 
 export {
 	AutoGrowTextInput, Avatar, Badge, Card,
