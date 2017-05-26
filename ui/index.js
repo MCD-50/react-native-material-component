@@ -12,7 +12,7 @@ import SwipeRow from './SwipeRow.js';
 import TextField from './TextField.js';
 import Toast from './Toast.js';
 import Toolbar from './Toolbar.js';
-
+import ActionButton from './ActionButton.js';
 //utils
 // import Arc from './utils/Arc.js';
 // import * as Colors from './utils/Colors.js';
@@ -24,7 +24,7 @@ import RippleFeedback from './utils/RippleFeedback.js';
 import ThemeProvider from './utils/ThemeProvider.js';
 
 export {
-	AutoGrowTextInput, Avatar, Badge, Card,
+	AutoGrowTextInput, Avatar, Badge, Card, ActionButton,
 	CheckBox, Icon, IconToggle, ListItem, Progress,
 	SwipeListView, SwipeRow, TextField, Divider,
 	Toast, Toolbar, getTheme, RippleFeedback, ThemeProvider
