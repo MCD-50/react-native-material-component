@@ -4,6 +4,9 @@
 # Getting Started
 ```bash
 $ npm i react-native-material-component --save
+
+if there is any unmet peer dependency run
+$ npm i react-native-vector-icons --save
 ```
 
 ## Setting of vector icons
