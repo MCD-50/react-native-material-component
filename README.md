@@ -53,12 +53,12 @@ The uiTheme object contains the following keys:
 import React, { Component } from 'react';
 import { Navigator, NativeModules } from 'react-native';
 
-import { COLOR, ThemeProvider } from '../react-native-material-component';
+import { Color, ThemeProvider } from '../react-native-material-component';
 
 // you can set your style right here, it'll be propagated to application
 const uiTheme = {
     palette: {
-        primaryColor: COLOR.green500,
+        primaryColor: Color.green500,
     },
     toolbar: {
         container: {
@@ -80,7 +80,7 @@ class Main extends Component {
 **It means, if you want to change primary color of your application for example. You can just pass to ThemeProvider object with your own settings.** Your settings will be merged with default theme.
 
 ## What else?
-Another great feature is, you can use the `uiTheme` everywhere. Even in your own components. So if you built your own implementation of `Button` for example, look how you can get the primary color.
+Another great feature is, you can use the `uiTheme` everywhere. Even in your own components. Look how you can get the primary color.
 
 ```js
 import ...
@@ -93,7 +93,6 @@ class MyButton extends Component {
     render() {
 	    // it's really easy to get primary color everywhere in your app
         const { primaryColor } = this.context.uiTheme.palette;
-
         return ...
     }
 }
@@ -101,12 +100,6 @@ class MyButton extends Component {
 export ...
 ```
 
-## Local changes
-Of course, sometimes we need to change style of only one component. It means, all `buttons` have red background, but facebook login button that should have blue background. Every each component have `style` property. So you can very easily override whatever you want.
-
-```js
-<Button style={{ container: { backgroundColor: 'blue' }}} />
-```
 # Animations are included
 
 Note: You have to allow the animations for Android ([see React Native's documentation](http://facebook.github.io/react-native/releases/0.33/docs/animations.html#layoutanimation))
@@ -126,11 +119,13 @@ Here is a list of all component included in this library. (I'm working on docume
 - Checkbox
 - Divider
 - Icon
-- Icon Toggle
-- List Item
+- ListItem
 - Progress
 - SwipeListView
-- SwiprRow
 - Toolbar
 - Toast
-- Text Field
+- TextField
+- RippleFeedback
+- FloatingActionButton
+- BottomNavigationBar
+- SnackBar
