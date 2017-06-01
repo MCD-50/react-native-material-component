@@ -1,7 +1,7 @@
 import React, { PropTypes, PureComponent } from 'react';
 import { View, Platform, Animated, Easing, StyleSheet } from 'react-native';
 
-import BottomNavigationAction from './BottomNavigationAction.react';
+import BottomNavigationAction from './utils/BottomNavigationAction.js';
 
 const propTypes = {
 	active: PropTypes.string,
