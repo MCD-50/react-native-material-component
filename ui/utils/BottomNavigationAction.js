@@ -5,6 +5,7 @@ import { StyleSheet, View, Text } from 'react-native';
 import RippleFeedback from './RippleFeedback.js';
 import Icon from '../Icon.js';
 
+
 const propTypes = {
 	icon: PropTypes.oneOfType([
 		PropTypes.element,
