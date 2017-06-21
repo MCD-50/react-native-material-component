@@ -18,6 +18,10 @@ import Divider from './utils/Divider.js';
 import Color from './utils/Colors.js';
 import RippleFeedback from './utils/RippleFeedback.js';
 import ThemeProvider from './utils/ThemeProvider.js';
+
+import Pages from './Pages';
+import Indicator from './Indicator';
+
 import getTheme from './utils/GetTheme.js';
 
 export {
@@ -25,6 +29,6 @@ export {
 	CheckBox, Icon, ListItem, Progress,
 	SwipeListView, TextField,Toast, Toolbar,
 	FloatingActionButton, BottomNavigationBar, 
-	RippleFeedback, SnackBar,
+	RippleFeedback, SnackBar, Pages, Indicator,
 	getTheme, Divider, ThemeProvider, Color
 }

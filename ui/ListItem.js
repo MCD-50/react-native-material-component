@@ -229,15 +229,6 @@ class ListItem extends PureComponent {
 		}
 	};
 
-	// onLongPressed = () => {
-	//     const { onLongPress, onPressValue } = this.props;
-	//     if (onLongPress) {
-	//         console.log('on long press');
-	//         onLongPress(onPressValue);
-	//     }
-	// }
-
-
 	renderLeftElement = (styles) => {
 
 		const { leftElement, centerElement  } = this.props;
