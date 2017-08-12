@@ -169,7 +169,6 @@ export default function getTheme(theme, ...more) {
 			container: {
 				flex: 1,
 				alignItems: 'center',
-				maxWidth: 168,
 				minWidth: 80,
 				paddingBottom: 12,
 				paddingTop: 8,
