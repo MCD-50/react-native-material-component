@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { PureComponent } from 'react';
-import { Animated, StyleSheet } from 'react-native';
+import { Animated, StyleSheet, } from 'react-native';
 
 const styles = StyleSheet.create({
 	container: {
