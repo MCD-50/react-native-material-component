@@ -1,6 +1,6 @@
 {
   "name": "react-native-material-component",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Simple react native material components based on react-native-material-ui ",
   "main": "index.js",
   "scripts": {
