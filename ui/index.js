@@ -13,6 +13,7 @@ import Toolbar from './Toolbar.js';
 import FloatingActionButton from './FloatingActionButton.js';
 import BottomNavigationBar from './BottomNavigationBar.js';
 import SnackBar from './SnackBar.js';
+import Dropdown from './Dropdown.js';
 
 import Divider from './utils/Divider.js';
 import Color from './utils/Colors.js';
@@ -33,13 +34,13 @@ import getTheme from './utils/GetTheme.js';
 
 
 export {
-	AutoGrowTextInput, Avatar, Badge, Card, 
+	AutoGrowTextInput, Avatar, Badge, Card,
 	CheckBox, Icon, ListItem, Progress,
-	SwipeListView, TextField,Toast, Toolbar,
-	FloatingActionButton, BottomNavigationBar, 
-	RippleFeedback, SnackBar, Pages, Indicator, 
-	getTheme, Divider, ThemeProvider, Color, 
+	SwipeListView, TextField, Toast, Toolbar,
+	FloatingActionButton, BottomNavigationBar,
+	RippleFeedback, SnackBar, Pages, Indicator,
+	getTheme, Divider, ThemeProvider, Color,
 	FadingSlide, Parallax, PulseLoader,
-	TabViewAnimated, TabBar, SceneMap
+	TabViewAnimated, TabBar, SceneMap, Dropdown
 
 }

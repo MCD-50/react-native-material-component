@@ -125,6 +125,7 @@ Here is a list of all component included in this library. (I'm working on docume
 - Toolbar
 - Toast
 - TextField
+- Dropdown
 - RippleFeedback
 - FloatingActionButton
 - BottomNavigationBar
